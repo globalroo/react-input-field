@@ -14,6 +14,8 @@ yarn build (for a production version - generated to ./build)
 
 A React textfield mimicking the behaviour of the HTML 5 input type 'search'.
 
+Live demo: https://globalroo.github.io/react-input-field/
+
 The input is augmented by wrapping it in a Hoverable component for the mouseenter and mouseleave events and injecting state into the children components.
 
 ```javascript
@@ -32,5 +34,3 @@ Also, trying out prettier with config. Checkout .prettierrc and see format diffe
 ```sh
 yarn prettier
 ```
-
-Live demo: https://globalroo.github.io/react-input-field/
