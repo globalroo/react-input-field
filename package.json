@@ -2,7 +2,7 @@
 	"name": "react-input-field",
 	"version": "0.1.0",
 	"private": false,
-	"homepage": "https://globalroo.github.io/react-video-player-observer/",
+	"homepage": "https://globalroo.github.io/react-input-field/",
 	"dependencies": {
 		"autoprefixer": "7.1.2",
 		"babel-core": "6.25.0",
