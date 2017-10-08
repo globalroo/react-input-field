@@ -14,7 +14,18 @@ yarn build (for a production version - generated to ./build)
 
 A React textfield mimicking the behaviour of the HTML 5 input type 'search'.
 
-The input is augmented by wrapping it in a Hoverable component for the mouseenter and mouseleave events and injecting state into the childen components. Similar to the render props technique used here: https://github.com/globalroo/react-video-render-prop/. React.cloneElement is used here as an alternative.
+The input is augmented by wrapping it in a Hoverable component for the mouseenter and mouseleave events and injecting state into the childen components.
+
+```javascript
+<Hoverable>
+	<ClearButton
+		visible={this.state.showButton}
+		onClick={this.clearText} /*hovered {true|false} injected from Hoverable*/
+	/>
+</Hoverable>
+```
+
+Similar to the render props technique used here: https://github.com/globalroo/react-video-render-prop/. React.cloneElement is used here as an alternative.
 
 Also, trying out prettier with config. Checkout .prettierrc and see format differences with
 
