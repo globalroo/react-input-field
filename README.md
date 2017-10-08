@@ -14,7 +14,7 @@ yarn build (for a production version - generated to ./build)
 
 A React textfield mimicking the behaviour of the HTML 5 input type 'search'.
 
-The input is augmented by wrapping it in a Hoverable component for the mouseenter and mouseleave events and injecting state into the childen components.
+The input is augmented by wrapping it in a Hoverable component for the mouseenter and mouseleave events and injecting state into the children components.
 
 ```javascript
 <Hoverable>
