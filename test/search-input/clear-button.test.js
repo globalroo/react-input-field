@@ -25,7 +25,3 @@ describe("Search Input tests", () => {
 		expect(component.toJSON()).toMatchSnapshot();
 	});
 });
-// width: PropTypes.number,
-// hovered: PropTypes.bool,
-// onClick: PropTypes.func,
-// visible: PropTypes.bool

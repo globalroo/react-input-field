@@ -105,9 +105,3 @@ describe("Search Input tests", () => {
 		});
 	});
 });
-
-// onChangeText = event => {
-//   const content = event.target.value;
-//   const showButton = content && content.length > 0 ? true : false;
-//   this.setState({ content, showButton });
-// };
