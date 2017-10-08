@@ -1,4 +1,4 @@
-# react-input-field [![Build Status](https://travis-ci.org/globalroo/react-input-field.svg?branch=master)](https://travis-ci.org/globalroo/react-input-field)[![Dependency Status](https://dependencyci.com/github/globalroo/react-input-field/badge)](https://dependencyci.com/github/globalroo/react-input-field)[![codecov](https://codecov.io/gh/globalroo/react-input-field/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/react-input-field)
+# react-input-field [![Build Status](https://travis-ci.org/globalroo/react-input-field.svg?branch=master)](https://travis-ci.org/globalroo/react-input-field)[![Dependency Status](https://dependencyci.com/github/globalroo/react-input-field/badge)](https://dependencyci.com/github/globalroo/react-input-field)[![codecov](https://codecov.io/gh/globalroo/react-input-field/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/react-input-field)[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > React Input Field
 
@@ -15,5 +15,11 @@ yarn build (for a production version - generated to ./build)
 A React textfield mimicking the behaviour of the HTML 5 <input type="search" />
 
 The input is augmented by wrapping it in a Hoverable component for the mouseenter and mouseleave events and injecting state into the childen components. Similar to the render props technique used here: https://github.com/globalroo/react-video-render-prop/. React.cloneElement is used here instead.
+
+Also, trying out prettier with config. Checkout .prettierrc and see format differences with
+
+```sh
+yarn prettier
+```
 
 Live demo: https://globalroo.github.io/react-input-field/
