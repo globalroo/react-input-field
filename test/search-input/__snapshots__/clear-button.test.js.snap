@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Input tests Renders the component as expected in hovered state 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "border": 0,
+      "opacity": 1,
+      "verticalAlign": "middle",
+      "width": 45,
+    }
+  }
+>
+  <span
+    className="clear-button-icon fa-stack fa-lg"
+    style={
+      Object {
+        "animation": "App-logo-spin infinite 10s linear",
+        "color": "red",
+        "fontSize": "20px",
+      }
+    }
+  >
+    <i
+      className="fa fa-circle-o fa-stack-2x"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    />
+    <i
+      className="fa fa-times fa-stack-1x"
+    />
+  </span>
+</button>
+`;
+
+exports[`Search Input tests Renders the component as expected in non-visible state 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "border": 0,
+      "opacity": 0,
+      "verticalAlign": "middle",
+      "width": 45,
+    }
+  }
+>
+  <span
+    className="clear-button-icon fa-stack fa-lg"
+    style={
+      Object {
+        "color": "#61dafb",
+        "fontSize": "14px",
+      }
+    }
+  >
+    <i
+      className="fa fa-circle-o fa-stack-2x"
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+    <i
+      className="fa fa-times fa-stack-1x"
+    />
+  </span>
+</button>
+`;
+
+exports[`Search Input tests Renders the component as expected in unhovered state 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "border": 0,
+      "opacity": 1,
+      "verticalAlign": "middle",
+      "width": 45,
+    }
+  }
+>
+  <span
+    className="clear-button-icon fa-stack fa-lg"
+    style={
+      Object {
+        "color": "#61dafb",
+        "fontSize": "14px",
+      }
+    }
+  >
+    <i
+      className="fa fa-circle-o fa-stack-2x"
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+    <i
+      className="fa fa-times fa-stack-1x"
+    />
+  </span>
+</button>
+`;

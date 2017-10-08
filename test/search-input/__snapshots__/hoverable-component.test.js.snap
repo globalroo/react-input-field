@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Never make export the same name but with capital letter as the filename!! OMG Tests Trigger a render 1`] = `
+Hoverable {
+  "context": undefined,
+  "handleMouseEnter": [Function],
+  "handleMouseLeave": [Function],
+  "props": Object {
+    "children": [Function],
+  },
+  "refs": Object {},
+  "setRef": [Function],
+  "state": Object {
+    "hovered": false,
+  },
+  "updater": Object {
+    "enqueueForceUpdate": [Function],
+    "enqueueReplaceState": [Function],
+    "enqueueSetState": [Function],
+    "isMounted": [Function],
+  },
+}
+`;

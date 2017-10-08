@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Input tests Renders the component as expected 1`] = `
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#222222",
+      "border": "2px solid #61dafb",
+      "borderRadius": 25,
+      "display": "flex",
+      "flexDirection": "row",
+      "height": 50,
+      "justifyContent": "center",
+      "outline": "none",
+      "padding": 5,
+      "width": 200,
+    }
+  }
+>
+  <input
+    onChange={[Function]}
+    placeholder="test"
+    style={
+      Object {
+        "backgroundColor": "#222222",
+        "border": "0px",
+        "color": "white",
+        "fontSize": "18px",
+        "fontWeight": "bold",
+        "lineHeight": "22px",
+        "marginLeft": 15,
+        "outline": "none",
+        "width": 136,
+      }
+    }
+    type="text"
+  />
+</div>
+`;
