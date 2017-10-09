@@ -23,7 +23,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p className="App-intro">
             A React &quot;CSS in JS&quot; version of the HTML5 input search
-            type.<br />{" "}
+            type.<br />
             <small>
               Uses a component that injects mouseover / mouseleave state into
               this.props.children to enable :hover effect via cloneElement
