@@ -1,4 +1,4 @@
-# react-input-field [![Build Status](https://travis-ci.org/globalroo/react-input-field.svg?branch=master)](https://travis-ci.org/globalroo/react-input-field)[![Dependency Status](https://dependencyci.com/github/globalroo/react-input-field/badge)](https://dependencyci.com/github/globalroo/react-input-field)[![codecov](https://codecov.io/gh/globalroo/react-input-field/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/react-input-field)[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+# react-input-field [![Build Status](https://travis-ci.org/globalroo/react-input-field.svg?branch=master)](https://travis-ci.org/globalroo/react-input-field)[![codecov](https://codecov.io/gh/globalroo/react-input-field/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/react-input-field)[![Dependency Status](https://dependencyci.com/github/globalroo/react-input-field/badge)](https://dependencyci.com/github/globalroo/react-input-field)[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > React Input Field
 
