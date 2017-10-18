@@ -36,6 +36,7 @@ exports[`Search Input tests Renders the component as expected 1`] = `
       }
     }
     type="text"
+    value=""
   />
 </div>
 `;

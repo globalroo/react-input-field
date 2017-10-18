@@ -28,9 +28,7 @@ export class SearchInput extends React.Component {
   setFocus = () => this.inputRef.focus();
 
   clearText = () => {
-    const content = "";
-    this.inputRef.value = content;
-    this.setState({ content, showButton: false });
+    this.setState({ content: "", showButton: false });
   };
 
   onChangeText = event => {
@@ -65,6 +63,7 @@ export class SearchInput extends React.Component {
               width: this.inputWidth
             }
           ])}
+          value={this.state.content}
           placeholder={this.props.placeholder}
           onChange={this.onChangeText}
           ref={node => (this.inputRef = node)}

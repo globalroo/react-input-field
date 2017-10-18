@@ -54,14 +54,8 @@ describe("Search Input tests", () => {
       placeholder: "test",
       whenAvailable: jest.fn()
     });
-    const mockNode = {
-      value: "TEST"
-    };
     component.setState = jest.fn();
-    component.setInputRef(mockNode);
-    expect(mockNode.value).toBe("TEST");
     component.clearText();
-    expect(mockNode.value).toBe("");
     expect(component.setState).toHaveBeenCalled();
   });
 
