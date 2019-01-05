@@ -2,7 +2,7 @@
 
 exports[`Search Input tests Renders the component as expected in hovered state 1`] = `
 <button
-  onClick={[Function]}
+  onClick={[MockFunction]}
   style={
     Object {
       "border": 0,
@@ -39,7 +39,7 @@ exports[`Search Input tests Renders the component as expected in hovered state 1
 
 exports[`Search Input tests Renders the component as expected in non-visible state 1`] = `
 <button
-  onClick={[Function]}
+  onClick={[MockFunction]}
   style={
     Object {
       "border": 0,
@@ -75,7 +75,7 @@ exports[`Search Input tests Renders the component as expected in non-visible sta
 
 exports[`Search Input tests Renders the component as expected in unhovered state 1`] = `
 <button
-  onClick={[Function]}
+  onClick={[MockFunction]}
   style={
     Object {
       "border": 0,
